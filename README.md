@@ -15,4 +15,6 @@ Global Air Pollution Data : https://www.kaggle.com/datasets/sazidthe1/global-air
 - ozone_aqi_value = AQI value of Ozone of the city <br>
 - no2_aqi_value = AQI value of Nitrogen Dioxide of the city
 
-## Research Process
+## Research Results
+<img src="/AQI Values Research Results/LatitudeVSAQI.png">
+<img src="/AQI Values Research Results/LongitudeVSAQI.png">
