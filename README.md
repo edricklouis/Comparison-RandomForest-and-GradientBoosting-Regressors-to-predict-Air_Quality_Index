@@ -20,10 +20,21 @@ Global Air Pollution Data : https://www.kaggle.com/datasets/sazidthe1/global-air
   <img src="/AQI Values Research Results/FI_RandomForest.png" style="width:48%; height:auto;">
   <img src="/AQI Values Research Results/FI_GradientBoosting.png" style="width:48%; height:auto;">
 </div>
-From both feature importance results above, the Carbon Monoxide amounts ('co_aqi_value') of each city has the highest influence on air quality level.
+From both feature importance results above, the Carbon Monoxide amounts ('co_aqi_value') of each city has the highest influence on air quality level. But the latitude & longitude factors both have different 
+percentages of influence between the two models. In the Random Forest model, latitude and longitude have an influence percentage of about 30% when summed. But in the Gradient Boosting Model, they have an
+influence percentage around 34% when summed.
+<br><br>
 
+- <b>Mean Squared Error (MSE)</b> is a metric used to measure how much error there is between the model's predicted value and the actual value. Because MSE works by squaring each error,
+it becomes very sensitive to outliers.
+- <b>Coefficient of Determination (R²)</b> is a metric that shows how well the model explains the variability in the data. The value ranges from 0 to 1, the closer the R² is to 1,
+the better the model is at explaining the variation in the data.
+<br><br>
 
 <div style="display: flex; justify-content: space-between;">
   <img src="/AQI Values Research Results/LatitudeVSAQI.png" style="width:48%; height:auto;">
   <img src="/AQI Values Research Results/LongitudeVSAQI.png" style="width:48%; height:auto;">
 </div>
+
+
+
