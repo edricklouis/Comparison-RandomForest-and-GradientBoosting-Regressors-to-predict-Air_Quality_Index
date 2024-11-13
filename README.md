@@ -7,6 +7,11 @@ The Weather Dataset : https://www.kaggle.com/datasets/guillemservera/global-dail
 <br>
 Global Air Pollution Data : https://www.kaggle.com/datasets/sazidthe1/global-air-pollution-data/data
 
+## References
+Random Forest model : https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/
+<br>
+Gradient Boosting model : https://www.geeksforgeeks.org/ml-gradient-boosting/
+
 ## Features
 - latitude = Latitude coordinate of the city (horizontal line / Equator)<br>
 - longitude = Longitude coordinate of the city (vertical line / Prime Meridian)<br>
