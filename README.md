@@ -29,12 +29,20 @@ influence percentage around 34% when summed.
 it becomes very sensitive to outliers.
 - <b>Coefficient of Determination (R²)</b> is a metric that shows how well the model explains the variability in the data. The value ranges from 0 to 1, the closer the R² is to 1,
 the better the model is at explaining the variation in the data.
+<img src="/AQI Values Research Results/ModelComparisonTable.png" style="width:50%; height:auto;">
+In the comparison table, it is shown that the Random Forest model has a slightly lower prediction error rate than Gradient Boosting. But the Random Forest model has a lower R² value than the Gradient Boosting model. This means that the Gradient Boosting model can account for slightly more variation in the data compared to the Random Forest model.
 <br><br>
 
 <div style="display: flex; justify-content: space-between;">
   <img src="/AQI Values Research Results/LatitudeVSAQI.png" style="width:48%; height:auto;">
   <img src="/AQI Values Research Results/LongitudeVSAQI.png" style="width:48%; height:auto;">
 </div>
+In the Scatterplot above, the plot shows a fairly wide distribution of AQI values, with most AQI values below 100, but there are some outliers that even reach above 300.
+<img src="/AQI Values Research Results/BoxPlotAQI.png" style="width:50%; height:auto;">
+The Box Plot above can give the conclusion that the high Mean Squared Error (MSE) value is most likely due to a large number of outliers and a relatively small dataset. Because most of the AQI values have 
+very high values, so the distribution of data is very varied.
 
-
-
+## Conclusions
+- In this dataset, the Random Forest Regressor model is slightly better at predicting actual values than the Gradient Boosting Regressor model
+- The Gradient Boosting Regressor shows that it can account for slightly more variation in data compared to Random Forest Regressor
+- Latitude and longitude have only a small degree of influence on air quality. Meanwhile, the level of Carbon Monoxide has the highest influence on air quality in each city
