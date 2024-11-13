@@ -16,5 +16,14 @@ Global Air Pollution Data : https://www.kaggle.com/datasets/sazidthe1/global-air
 - no2_aqi_value = AQI value of Nitrogen Dioxide of the city
 
 ## Research Results
-<img src="/AQI Values Research Results/LatitudeVSAQI.png">
-<img src="/AQI Values Research Results/LongitudeVSAQI.png">
+<div style="display: flex; justify-content: space-between;">
+  <img src="/AQI Values Research Results/FI_RandomForest.png" style="width:48%; height:auto;">
+  <img src="/AQI Values Research Results/FI_GradientBoosting.png" style="width:48%; height:auto;">
+</div>
+From both feature importance results above, the Carbon Monoxide amounts ('co_aqi_value') of each city has the highest influence on air quality level.
+
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="/AQI Values Research Results/LatitudeVSAQI.png" style="width:48%; height:auto;">
+  <img src="/AQI Values Research Results/LongitudeVSAQI.png" style="width:48%; height:auto;">
+</div>
